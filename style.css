@@ -1,23 +1,39 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
 
 .main-title {
   font-family: "Rubik", sans-serif;
-  color: black;
+  color: #b80b00;
   letter-spacing: 0.2em;
   font-size: 4em;
   font-weight: 900;
   font-style: italic;
+  margin: 0;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
+.content {
   display: flex;
-  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.lorem {
+  font-family: "Open Sans", sans-serif;
+  width: 50vh;
   justify-content: center;
-  background: linear-gradient(
-    0deg,
-    rgba(252, 211, 215, 1) 0%,
-    rgba(238, 131, 143, 1) 100%
-  );
+  margin: auto;
+  color: #b80b00;
+}
+
+.image {
+  filter: grayscale(100%);
+  width: 50vw;
+  height: auto;
+  opacity: 0.7;
+  margin: auto;
 }
