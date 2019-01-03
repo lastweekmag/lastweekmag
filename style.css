@@ -17,7 +17,7 @@ body {
   justify-content: center;
   background: linear-gradient(
     0deg,
-    rgba(238, 131, 143, 1) 0%,
-    rgba(252, 211, 215, 1) 100%
+    rgba(252, 211, 215, 1) 0%,
+    rgba(238, 131, 143, 1) 100%
   );
 }
